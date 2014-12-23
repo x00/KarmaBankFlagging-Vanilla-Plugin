@@ -1,10 +1,10 @@
-<?php
+<?php if (!defined('APPLICATION')) exit();
 $PluginInfo['KarmaBankFlagging'] = array(
     'Name' => 'KarmaBank Flagging',
     'Description' => 'Extends KarmaBank to deduct Karma for flagging, as well as rewarding for being flags being dismissed.',
     'RequiredApplications' => array('Vanilla' => '2.1'),
     'RequiredPlugins' => array('KarmaBank' => '0.9.6.9b'),
-    'Version' => '0.1b',
+    'Version' => '0.1.2b',
     'Author' => "Paul Thomas",
     'AuthorEmail' => 'dt01pqt_pt@yahoo.com'
 );
